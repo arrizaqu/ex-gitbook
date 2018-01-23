@@ -3,9 +3,9 @@
 * Generated Pdf Locally
 	
 ## Install gitbook cli
----java
+```java
 $ npm install gitbook-cli -g
----
+```
 
 ## Generated Pdf Locally 
 * Install npm 
