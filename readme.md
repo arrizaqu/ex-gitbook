@@ -38,6 +38,10 @@ $ npm install gitbook-cli -g
 ```java
 npm run docs:generate-pdf
 ```
+or 
+```java
+gitbook pdf ./ ./_book/mybook.pdf
+```
 	
 ## Automatic generated 
 ```java
@@ -95,14 +99,16 @@ npm run docs:generate-pdf
 * Running gitbook with npm and Generated Pdf Locally : (https://ssmusoke.com/tag/gitbook/) 
 * autocover error, following step (NOT Solved yet):
 ```js
-	* choco install -y python2 gtk-runtime microsoft-build-tools libjpeg-turbo
+	* Installing GTK 2 and Extract to: C:\GTK
+	* Installing libjpeg-turbo, example : choco install -y python2 gtk-runtime microsoft-build-tools libjpeg-turbo
 	* see : https://github.com/Automattic/node-canvas/wiki/Installation---Windows
 	* npm install --global --production windows-build-tools
 	* set GYP_MSVS_VERSION=2015
 	* npm install --msvs_version=2015
-	* 
+	* npm install -g canvas
 ```
 ### 
 
 ## Reference 
 * https://ssmusoke.com/tag/gitbook/
+* https://stefanimhoff.de/2017/i-wrote-a-book-in-gitbook/
