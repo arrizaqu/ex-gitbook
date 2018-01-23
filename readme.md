@@ -1,5 +1,11 @@
 # Gitbook documentation
-* 
+* Install gitbook cli
+* Generated Pdf Locally
+	
+## Install gitbook cli
+---java
+$ npm install gitbook-cli -g
+---
 
 ## Generated Pdf Locally 
 * Install npm 
