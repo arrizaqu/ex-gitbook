@@ -111,4 +111,4 @@ gitbook pdf ./ ./_book/mybook.pdf
 
 ## Reference 
 * https://ssmusoke.com/tag/gitbook/
-* https://stefanimhoff.de/2017/i-wrote-a-book-in-gitbook/
+* https://stefanimhoff.de/2017/i-wrote-a-book-in-gitbook/ 
