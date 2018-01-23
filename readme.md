@@ -1,6 +1,8 @@
 # Gitbook documentation
 * Install gitbook cli
+* Install Cover
 * Generated Pdf Locally
+* Install autocover
 	
 ## Install gitbook cli
 ```java
@@ -49,8 +51,50 @@ npm run docs:generate-pdf
   }
 }
 ```
+
+## Install autocover
+* Add autocover plugin in book.json file 
+```java
+{
+    "plugins": ["autocover"],
+    "pluginsConfig": {
+        "autocover": {
+            // Configuration for autocover (see below) 
+        }
+    }
+}
+```
+
+* Configuration plugin in update book.json
+```java
+{
+    "title": "My Book",
+    "author": "Author",
+    "pluginsConfig": {
+        "autocover": {
+            "font": {
+                "size": null,
+                "family": "Impact",
+                "color": "#FFF"
+            },
+            "size": {
+                "w": 1800,
+                "h": 2360
+            },
+            "background": {
+                "color": "#09F"
+            }
+        }
+    }
+}
+```
+
+* note : must install "node-canvas" library in server.
+
 ## Issue 
 * Running gitbook with npm and Generated Pdf Locally : (https://ssmusoke.com/tag/gitbook/) 
+* autocover error, following step not close : 
+### 
 
 ## Reference 
 * https://ssmusoke.com/tag/gitbook/
