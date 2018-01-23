@@ -93,7 +93,15 @@ npm run docs:generate-pdf
 
 ## Issue 
 * Running gitbook with npm and Generated Pdf Locally : (https://ssmusoke.com/tag/gitbook/) 
-* autocover error, following step not close : 
+* autocover error, following step (NOT Solved yet):
+```js
+	* choco install -y python2 gtk-runtime microsoft-build-tools libjpeg-turbo
+	* see : https://github.com/Automattic/node-canvas/wiki/Installation---Windows
+	* npm install --global --production windows-build-tools
+	* set GYP_MSVS_VERSION=2015
+	* npm install --msvs_version=2015
+	* 
+```
 ### 
 
 ## Reference 
